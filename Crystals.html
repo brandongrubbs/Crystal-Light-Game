@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    
+    <title>Crystal Light</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+  </head>
+  <!--Psuedo Code -->
+<!--This game has 4 Crystals which generated random numbers when clicked on.  The goal is to get as close to 40 without going over (Think of it as kinda like blackjack.)
+	-Start Game function is needed.
+	-New Game function is needed.
+	-Ability to choose different Crystals is needed (i.e. onClick).
+	-Game must end when certain events happen.
+	-Randomly generated number must reset when new game is started.
+	-Game should disply Win or Loss.
+	-Display should show the total points created.
+-->
+  <body>
+
+    <div class ='container'>
+     
+     <div class="jumbotron-fluid">
+		<Center>
+  			<h1 class="display-1"><i class="" aria-hidden="true"></i>Crystal Light</h1>
+  				<p class="lead">Try to match the number given at the start of the game by choosing from the 4 different crystals given.  Each chrystal will be given a random value between 1 and 12 Try to get to match the given number without going over.</p>
+		</Center>
+</div>
+	<center>
+	<div class="row">
+  <div class="col-sm-6">
+    <div class="card text-white bg-info mb-3" style="max-width: 18rem;">
+  <div class="card-header">Target Score</div>
+  <div class="card-body">
+    <h5 class="card-title" id="targetScore"></h5>
+    <p class="card-text"></p>
+  </div>
+</div>
+  </div>
+  <div class="col-sm-6">
+    <div class="card text-white bg-info mb-3" style="max-width: 18rem;">
+  <div class="card-header">Your Score</div>
+  <div class="card-body">
+    <h5 class="card-title" id="yourScore"></h5>
+    <p class="card-text"></p>
+  </div>
+</div>
+  </div>
+<div class="col-sm-6">
+    <div class="card text-white bg-info mb-3" style="max-width: 18rem;">
+  <div class="card-header">Wins</div>
+  <div class="card-body">
+    <h5 class="card-title" id="numWins">0</h5>
+    <p class="card-text"></p>
+  </div>
+</div>
+  </div>
+<div class="col-sm-6">
+    <div class="card text-white bg-info mb-3" style="max-width: 18rem;">
+  <div class="card-header">Losses</div>
+  <div class="card-body">
+    <h5 class="card-title" id="numLosses">0</h5>
+    <p class="card-text"></p>
+  </div>
+</div>
+  </div>  
+</div>
+</center>
+<br>
+
+
+
+    <div class="card">
+    	<center>
+  		<div class="card-header">
+        <button type="button" class="btn btn-primary btn-sm">Start game</button><strong>     Your Crystals     </strong>
+        <button type="button" class="btn btn-secondary btn-sm">Reset game</button>
+      </div>
+  			<div class="card-body">
+		</div>
+		<div class="container">
+		<div class="row">
+
+  <div class="card" style="width: 17.3rem;">	
+  <img class="card-img-top" src="alcohol.jpg" height="200" alt="Card image cap" id="gold">
+  <div class="card-body">
+    <p class="card-text"></p>
+  </div>
+</div>
+
+<div class="card" style="width: 17.3rem;">
+  <img class="card-img-top" src="Diamond.jpg" height="200" alt="Card image cap" id="diamond">
+  <div class="card-body">
+    <p class="card-text"></p>
+  </div>
+</div>
+
+<div class="card" style="width: 17.3rem;">
+  <img class="card-img-top" src="Amethyst.jpg" height="200" alt="Card image cap" id="amethyst">
+  <div class="card-body">
+    <p class="card-text"></p>
+  </div>
+</div>
+
+<div class="card" style="width: 17.3rem;">
+  <img class="card-img-top" src="rock-crystal.jpg" height="200" alt="Card image cap" id="rock-crystal">
+  <div class="card-body">
+    <p class="card-text"></p>
+  </div>
+</div>
+
+    			
+  			</div>
+		</div>
+</center>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <script type="text/javascript" src="logic.js"></script>
+    
+  </body>
+</html>
+
+
+

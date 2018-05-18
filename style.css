@@ -1,0 +1,28 @@
+.jumbotron-fluid{
+	background-color: orange;
+}
+
+.crystals{
+	display: flex;
+	justify-content: space-around;
+	border: 1px solid black;
+	align-items: center;
+
+}
+.crystal{
+	border:1px solid blue;
+	height: 200px;
+	width: 200px;
+}
+
+.card{
+	height: ;
+}
+
+.card-text{
+	font-size: 48px;
+	}
+
+.card-title{
+	font-size: 48px;
+}
