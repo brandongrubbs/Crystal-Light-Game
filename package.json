@@ -1,15 +1,23 @@
 {
-  "name": "crystals",
+  "name": "crystal-light-game",
   "version": "1.0.0",
-  "main": "Crystals.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
+  "description": "",
+  "main": "logic.js",
   "dependencies": {
     "jquery": "^3.3.1"
   },
   "devDependencies": {},
-  "description": ""
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brandongrubbs/Crystal-Light-Game.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brandongrubbs/Crystal-Light-Game/issues"
+  },
+  "homepage": "https://github.com/brandongrubbs/Crystal-Light-Game#readme"
 }
